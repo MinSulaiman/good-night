@@ -161,7 +161,7 @@ And yes, in both cases, the package **will not work** without having `@goodNight
 
 ## Development
 
-**P**ull-**r**equests are free around here. A special pacakge privilage, you know. 😋
+**P**ull-**r**equests are free around here. A special package privilage, you know. 😋
 
 - There's an available and automated [CHANGELOG](CHANGELOG.md) of all the updates.
 
