@@ -12,6 +12,8 @@ The concept of [dark-mode in TailwindCSS](https://tailwindcss.com/docs/dark-mode
 
 Therefore, we can utilize an Alpine.js custom [bind](https://alpinejs.dev/globals/alpine-bind) to **either** add a dark-mode switcher in a **configurable** corner of the page, **or** apply a different bind to a clickable element which will hook the necessary logic to it on its own.
 
+![2022-07-14-06-39-48](https://user-images.githubusercontent.com/81492351/178893504-37173339-5709-48f8-9359-a67e63d08942.gif)
+
 
 ## Installation
 
@@ -120,11 +122,11 @@ This is a [TALL Stack](https://tallstack.dev) supportive package, so... -you kno
 
 There are 2 different ways to use this package:
 
-1. Enable the corner switcher in configuration and it will be displayed by default, as long as `@goodNight` directive exists in the page.
+1. Enable the corner switcher in configuration and it will be displayed by default.
 
    - You can customize the published view at `resources/views/vendor/good-night/partials/good-night-switcher.blade.php`.
 
-2. Disable the corner switcher in configuration and add the following to a clickable element:
+2. Disable the corner switcher in configuration and then add the following to a clickable element:
 
    ```html
    <button
@@ -134,12 +136,14 @@ There are 2 different ways to use this package:
        Theme Changer
    </button>
    ```
+   
+And yes, in both cases, the package **will not work** without having `@goodNight` Blade directive in the page!
 
 ### Cases
 
 - How does this switching happen smoothly?
 
-  - By adding one of the [`transition` Tailwind property](https://tailwindcss.com/docs/transition-property) classes on the thing with `dark:` pseudo-elements.
+  - By adding one of the [`transition` Tailwind property](https://tailwindcss.com/docs/transition-property) classes on the thingies with `dark:` pseudo-elements.
 
 - What if I want to add extra logic upon theme switching?
 
