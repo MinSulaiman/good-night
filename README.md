@@ -136,7 +136,7 @@ There are 2 different ways to use this package:
        Theme Changer
    </button>
    ```
-   
+
 And yes, in both cases, the package **will not work** without having `@goodNight` Blade directive in the page!
 
 ### Cases
@@ -162,6 +162,8 @@ And yes, in both cases, the package **will not work** without having `@goodNight
 ## Development
 
 If you love to **p**ull-**r**equest, please consider doing so to the `dev` branch; **not** `master`.
+
+- There's an available and automated [CHANGELOG](CHANGELOG.md) of all the updates.
 
 ### TODOs
 

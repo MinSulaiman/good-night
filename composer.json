@@ -2,9 +2,6 @@
     "name": "goodm4ven/good-night",
     "description": "Switch the dark-mode of your TALL Stack application with ease.",
     "keywords": [
-        "laravel",
-        "tailwindcss",
-        "alpinejs",
         "tall-stack",
         "dark-mode",
         "switcher"
