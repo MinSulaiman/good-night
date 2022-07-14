@@ -39,7 +39,7 @@ This is a [TALL Stack](https://tallstack.dev) supportive package, so... -you kno
    php artisan vendor:publish --provider="GoodM4ven\GoodNight\GoodNightServiceProvider"
    ```
 
-   - If your'e **updating** the package, please use `--force` option along the above command to **override** the old assets.
+   - If you're **updating** the package, please add `--force` option to **override** the old assets.
 
 3. Open the published `config/good-night.php` file, and determine the **default mode** as well as whether the corner switcher is on or not.
 
