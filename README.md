@@ -161,7 +161,7 @@ And yes, in both cases, the package **will not work** without having `@goodNight
 
 ## Development
 
-If you love to **p**ull-**r**equest, please consider doing so to the `dev` branch; **not** `master`.
+**P**ull-**r**equests are free around here. A special pacakge privilage, you know. 😋
 
 - There's an available and automated [CHANGELOG](CHANGELOG.md) of all the updates.
 
